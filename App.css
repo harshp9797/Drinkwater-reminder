@@ -1,0 +1,99 @@
+body{background-color:lightblue;}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.time-input {
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-btn {
+  margin-left: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reminder-list {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.reminder-list h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.reminder-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.reminder-list li {
+  margin-bottom: 5px;
+}
+
+.countdown {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.notification {
+  font-size: 18px;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.start-btn {
+  padding: 10px 20px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.water-intake {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.water-intake h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.water-intake p {
+  margin-bottom: 10px;
+}
+
+.add-intake-btn {
+  padding: 10px 20px;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
